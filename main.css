@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'policePerso';
+    src: url('fonts/Rechtman/RechtmanPlain.ttf');
+}
+@font-face {
+    font-family: 'maPolice';
+    src: url('fonts/serif72beta-regular-webfont.otf');
+    src: url('fonts/serif72beta-regular-webfont.otf?#iefix') format('embedded-opentype'), url('fonts/serif72beta-regular-webfont.woff') format('woff'), url('fonts/serif72beta-regular-webfont.ttf') format('truetype'), url('fonts/serif72beta-regular-webfont.svg#serif72_beta_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+  height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background-color: black;
+}
+body, h1, h4 {
+    font-family: "maPolice";
+}
+.midnightHeader.P1 {
+  background: none;
+  color: black;
+}
+.midnightHeader.P2 {
+  background: grey;
+  color: black;
+}
+.midnightHeader.P3 {
+  background: blue;
+  color: white;
+}
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  font-family: "policePerso";
+  color: purple;
+  text-align: center;
+  font-size: 45px;
+}
+h3{
+    font-family: "policePerso";
+    color: purple;
+    font-size: 45px;
+}
+img{
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+-webkit-border-radius: 13%;
+-moz-border-radius: 13%;
+box-shadow: inset 20px 0px 50px 0px #ABABAB,-3px 5px 5px 1px #242424;
+-webkit-box-shadow: inset 20px 0px 50px 0px #ABABAB,-3px 5px 5px 1px #242424;
+-moz-box-shadow: inset 20px 0px 50px 0px #ABABAB,-3px 5px 5px 1px #242424;
+-o-box-shadow: inset 20px 0px 50px 0px #ABABAB,-3px 5px 5px 1px #242424;
+}
+a{
+  color: purple;
+
+}
+a:hover{
+  color: black;
+  text-decoration:  none;
+}
+/*===============================*/
+
+#mainContainer {
+    width: 100%;
+    /*overflow: visible;*/
+    padding: 50px 0px 20px 0px;
+    background: black;
+}
+.navbar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  color: transparent;
+}
+.qui {
+    margin-top: 15px;
+    font-family: "policePerso";
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+
+/*==================*/
+#accueil {
+    background-color: black;
+    margin-top: -45px;
+    overflow: hidden;
+    position: relative;
+  /*  width: 100%;*/
+    z-index: -20000;
+    height: 100vh;
+}
+.ti {
+    font-family: "maPolice";
+    font-size: 50px;
+    left: 50%;
+    color: white;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.pcal{
+  height: 120vh;
+  margin: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e3e1e3+0,cccacc+36,a99da8+100 */
+background: #e3e1e3; /* Old browsers */
+background: -moz-linear-gradient(top,  #e3e1e3 0%, #cccacc 36%, #a99da8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e3e1e3 0%,#cccacc 36%,#a99da8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e3e1e3 0%,#cccacc 36%,#a99da8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e1e3', endColorstr='#a99da8',GradientType=0 ); /* IE6-9 */
+
+
+}
+#des{
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "maPolice";
+}
+.moi, .moi1{
+  height: 50px;
+  width: 100px;
+  border: 1px  blue;
+  margin-left: 45%;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+
+.P1 {
+    height: 110vh;
+    margin: 0;
+    padding: 0;
+  /*  display: none;*/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbcfd5+0,a5aaaf+36,596b75+100 */
+background: #cbcfd5; /* Old browsers */
+background: -moz-linear-gradient(top,  #cbcfd5 0%, #a5aaaf 36%, #596b75 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #cbcfd5 0%,#a5aaaf 36%,#596b75 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #cbcfd5 0%,#a5aaaf 36%,#596b75 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbcfd5', endColorstr='#596b75',GradientType=0 ); /* IE6-9 */
+
+
+}
+.lol {
+    margin-top: 20px;
+    text-align: center;
+    /*animation-name: gauche;
+    animation-duration: 5s*/
+    margin-left: 30px;
+    font-size: 20px;
+  /*  line-height: ;*/
+    font-family: "maPolice";
+    text-align: justify;
+
+
+}
+
+
+/*======= css réalisations======*/
+
+.P2 {
+    /*  width: 100%;*/
+    height: 160vh;
+    margin-left: 10px;
+    padding: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c6ccd4+0,9ea5ac+36,4d6471+100 */
+background: rgb(198,204,212); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(198,204,212,1) 0%, rgba(158,165,172,1) 36%, rgba(77,100,113,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(198,204,212,1) 0%,rgba(158,165,172,1) 36%,rgba(77,100,113,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(198,204,212,1) 0%,rgba(158,165,172,1) 36%,rgba(77,100,113,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6ccd4', endColorstr='#4d6471',GradientType=0 ); /* IE6-9 */
+
+}
+span{
+  font-family: "maPolice";
+  font-size: 15px;
+}
+progress{
+
+    display: inline-block;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    width: 300px;
+    height: 20px;
+    padding: 4px 4px 3px 3px;
+    background: black;
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2) inset;
+}
+
+/*======css partenaires===*/
+.P3 {
+    height: 170vh;
+    margin-left: 10px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdfe5+0,c2c7cc+36,88a0ae+100 */
+background: rgb(219,223,229); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(219,223,229,1) 0%, rgba(194,199,204,1) 36%, rgba(136,160,174,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(219,223,229,1) 0%,rgba(194,199,204,1) 36%,rgba(136,160,174,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(219,223,229,1) 0%,rgba(194,199,204,1) 36%,rgba(136,160,174,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdfe5', endColorstr='#88a0ae',GradientType=0 ); /* IE6-9 */
+
+}
+.sp {
+  margin-top: 80px;
+}
+.gche {
+    height: 200px;
+    animation-name: gauche;
+    animation-duration: 5s;
+    border: 1px  black;
+    left: 10px;
+    margin-top: 40px;
+
+}
+@keyframes gauche {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+    75% {
+        left: 250px;
+        opacity: 1;
+    }
+}
+
+.dte {
+    height: 200px;
+    animation-name: droite;
+    animation-duration: 5s;
+    border: 1px  black;
+    right: 10px;
+}
+
+
+@keyframes droite {
+    0% {
+        right: 0px;
+        opacity: 0;
+    }
+    50% {
+        right: 250px;
+        opacity: 1%;
+    }
+}
+
+span{
+  top: 10px;
+  margin-left: 15px;
+}
+
+
+
+/*==========================css du footer=======*/
+
+#footer{
+  height: 80vh;
+    bottom: 0;
+   background-color: rgba(0, 0, 0, 0.7);
+}
+#pied{
+  height: 400px;
+  margin-top: 20px;
+
+}
+.form-group{
+  margin-left: 5px;
+}
+#logo{
+  margin-top: 25px;
+}
+.logo{
+height: 25px;
+width: 25px;
+}
+@media screen and (max-width:640px) {
+  .gche {
+  margin-top: 5px;
+  animation: none ;
+  padding: 0;
+  }
+  .dte{
+    margin-top: -40px;
+  }
+  .sp{
+    margin: 0;
+  }
+  p *{
+    text-align: justify;
+  }
+  div a{
+    margin-left: 50%;
+  }
+  .P1 .P2 .P3 {
+    height: 100%;
+  }
+}

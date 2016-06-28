@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mon Premier site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css" charset="utf-8">
+</head>
+
+<body>
+    <section id="mainContainer" class="midnightHeader">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <!-- Partie de la barre toujours affichée -->
+            <div class="midnightHeader default">
+
+                <!-- Bouton d'accès affiché à droite si la zone d'affichage est trop petite -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-target">
+                    <span class="sr-only">Activer la navigation</span>
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#button"> </a>
+            </div>
+            <!-- Partie de la barre masquée si la surface d'affichage est insuffisante -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-target">
+                <ul class="nav navbar-nav">
+                    <li class="active qui"><a href="#prese">~Presentation~</a></li>
+                    <li class="qui"><a href="#rea">~Mes Realisations~</a></li>
+                </ul>
+                <ul class="nav navbar-nav ">
+                    <li class="qui"><a href="#partenaires">~Mes Partenaires~</a></li>
+                </ul>
+                <ul class="nav navbar-nav ">
+                    <li class="qui"><a href="#contact">~Contact~</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12" id="accueil">
+                <h1 class="ti">JANNED SITE</h1>
+            </div>
+
+            <div class="col-xs-12" ng-app="myApp" ng-controller="MainCtrl" id="prese" data-midnight="grey">
+                <div class="row">
+                    <div class="col-xs-12  pcal" ng-show="IsVisible">
+
+                        <center><img src="image/janned.jpg" alt="personne" width="206" height="206" style="margin-top:20px" /></center>
+                        <p id="des">
+                            Souriante, Intrépide, Rigoureuse.
+                            <br> Les épreuves de la vie ont fait de moi ce que je suis.
+                            <br>
+                            <h1 style=" text-align:center"> "Je suis Capitaine de mon âme, Maitre de mon DESTIN."</h1>
+
+
+                        </p>
+                        <p class="hidden-sm hidden-xs  moi" ng-click="IsVisible()">En Savoir Plus</p>
+                    </div>
+                    <div class="col-xs-12 P1" ng-show="!IsVisible">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <p class="hidden-sm hidden-xs lol">
+                                    Je m'appelle<i style="color:purple">Jeanne d'Arc NGASSA.</i>Je suis camerounaise. Je suis détentrice d'une licence en informatique et en électronique pour les télécommunications; voulant des postes à responsabilités,
+                                    j'ai continué par une formation en Management et Stratégie d'entreprise. Après un an de chercher d'emploi, une amie me parle de SIMPLonMARS. Je me lance dans cette nouvelle aventure qu'est le développement web.
+                                    <br>
+                                    <br> &nbsp; <strong style="color:purple">L'apprentissage du développement web qu'est ce que c'est?</strong>
+                                    <br> Pour moi le développement web est la connaissance des langages nous permettant la création des sites dynamiques, statiques ou applications mobiles. Tout en parcourant ce site vous verrez mes appetances dans certains
+                                    langages qui ont nécessité sa construction et aussi pour ce métier.
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <div class="hidden-sm hidden-xs ">
+                                  <img src="image/janned.jpg" alt="fille" width="206" height="206" style="margin-top:60px;margin-left:50px"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <p class="moi1" ng-click="IsVisible()">
+                                Touche Moi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 P2" id="rea" data-midnight="blue">
+                <h2 style="text-align:center">Mes Realisations</h2>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12 ">
+
+                              <a href="http://maellajanned.github.io/ex-conte/" style="margin-left:25px; font-size:20px">Conte</a>&nbsp;
+                              <img class="hidden-xs" src="image/le-petitprince-ConvertImage.png" alt="nwapp" width="1300" height="665" style="margin-top:35px ;margin-left:50px"
+                              />
+                            </div>
+                            <div class="col-xs-12">
+
+                                <a href="https://github.com/maellajanned/nwapp.github.io" style="margin-left:25px; font-size:20px">NWAPP</a>&nbsp;<img  class="hidden-xs" src="image/nwapp-ConvertImage.png" alt="nwapp" width="1305" height="660" style="margin-top:35px ;margin-left:35px"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12">
+
+                                <a href="http://simplon-wars.github.io/" style="font-size:20px">Simplon Wars</a><img  class="hidden-xs" src="image/simplon-wars-ConvertImage.png" alt="simplon-wars" width="1298" height="650" style="margin-left:45px" />
+                            </div>
+                            <div class="col-xs-12">
+
+                                <a href="http://formation.qualite-sens.com" style="font-size:20px">Projet Associatif</a><img  class="hidden-xs"  src="image/forma-ConvertImage.png" alt="" width="1298" height="663"style="margin-top:35px ;margin-left:35px" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h2 style="margin-top:-10px">Competences</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>PHP<progress value="45" min="0" max="100" style="margin-left:45px">45%</progress></span>
+                        <br>
+                        <span>MySQL<progress value="60" min="0" max="100" style="margin-left:25px">60%</progress></span>
+                        <br>
+                        <span>Symfony<progress value="30" min="0" max="100" style="margin-left:20px">30%</progress></span>
+                        <br>
+                        <span>Boostrap<progress value="80" min="0" max="100"style="margin-left:20px">80%</progress></span>
+                    </div>
+                    <div class="col-md-6">
+                        <span>HTML5/CSS3<progress value="90" min="0" max="100" style="margin-left:30px">90%</progress></span>
+                        <br>
+                        <span>Javascript<progress value="62" min="0" max="100" style="margin-left:55px">62%</progress></span>
+                        <br>
+                        <span>Angularjs<progress value="55" min="0" max="100" style="margin-left:58px">55%</progress></span>
+                        <br>
+                        <span>Jquery<progress value="50" min="0" max="100" style="margin-left:75px">50%</progress></span>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-xs-12 P3" id="partenaires" data-midnight="white">
+                <h2 class="details">Partenaires</h2>
+                <div class="row">
+                    <div class="col-md-12 col-xs-4">
+                        <div class="row">
+                            <div class="col-md-4 gche">
+                                <img  class="hidden-xs" src="image/jerome.png" alt="avatar" width="180" height="180" />
+                            </div>
+                            <div class="col-md-4 hidden-xs gche">
+                                <p style="text-align:center;margin-top:60px;font-size:20px">
+                                    Développeur web junior motivé, sérieux, curieux et passionné des nouvelles technos. Simple mais efficace.
+                                </p>
+                            </div>
+                            <div class="col-md-4 pull-right">
+                                <h3>Jérôme</h3>
+                                <p class="description">Design / Conception / Développeur web</p>
+                                <a href="http://fannio-jerome.com">
+                                    <p><i>En Savoir Plus</i></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xs-4">
+                        <div class="row sp ">
+                            <div class="col-md-4 col-xs-12">
+
+                                <h3 style="margin-top:40px">Yannic</h3>
+                                <p class="description">Support Technique / Conception / Développeur web</p>
+                                <a href="https://yannic-makangou.com">
+                                    <p><i>En Savoir Plus</i></p>
+                                </a>
+                            </div>
+                            <div class="col-md-4 hidden-xs dte">
+                                <p style="text-align:center;margin-top:60px;font-size:20px">
+                                    Développeur passionné par le web et le monde digital.
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-xs-12 dte">
+                                <img  class="hidden-xs" src="image/Horsell.png" alt="avatar" width="180" height="180" style="margin-top:20px" />
+                            </div>
+                        </div>
+                      </div>
+
+                        <div class="col-md-12 col-xs-4">
+                            <div class="row sp">
+                                <div class="col-md-4 col-xs-12 gche">
+                                    <img  class="hidden-xs" src="image/abdel-malik.png" alt="avatar" width="202" height="375" style="margin-top:40px" />
+
+                                </div>
+                                <div class="col-md-4 hidden-xs gche">
+                                    <p style="text-align:center;margin-top:60px;font-size:20px">
+                                        Le bonheur n'est réel que lorsqu'il est partagé. — Into The Wild
+                                    </p>
+
+                                </div>
+                                <div class="col-md-4  pull-right col-xs-12">
+
+
+                                    <h3 style="margin-top:70px">Abdel-malick</h3>
+                                    <p class="description">Designer / Conception / Développeur web</p>
+                                    <a href="http://ushiden13.fr">
+                                        <p><i>En Savoir Plus</i></p>
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-xs-6 " id="footer">
+                <div class="row">
+                    <div class="col-md-6 hidden-xs " id="pied">
+                        <h3 style="text-align:center">Contact</h3>
+                        <form class="" action="index.html" method="post">
+
+                            <fieldset class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Entrer votre email">
+                                <small class="text-muted">Votre mail ne sera jamais publié.</small>
+                                <br>
+                                <label for="formGroupExampleInput">Nom</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" name="nom" placeholder="Entrer votre Nom">
+                                <label for="formGroupExampleInput">Prenom</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" name="prenom"placeholder="Entrer Votre Prenom">
+                                <label for="exampleTextarea">Entrer votre Message ici:</label>
+                                <textarea class="form-control" id="exampleTextarea" rows="8" name="message"></textarea>
+                                <input type="submit" name="retour" value="Envoyé">
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="row" id="logo">
+                            <div class="col-xs-12">
+
+                                <h3 style="text-align:center">Liens Sociaux</h3>
+                            </div>
+                            <div class="col-xs-12">
+                                <center>
+                                    <a href="https://fr.linkedin.com/in/jeanne-d-arc-ngassa-nkanlehou-a4b116ab"><img class="logo" src="image/linke.png" alt="" width="225" height="225" /></a>
+                                    <a href="http://www.viadeo.com/p/0022f56fhzq8k1xc"><img class="logo" src="image/via.jpg" alt="" width="164" height="166" /></a>
+                                    <a href="https://twitter.com/ArcEdwige"><img class="logo" src="image/twitter.jpg" alt="" width="225" height="225" /></a>
+                                    <a href="https://facebook.com/jannedmaella"><img class="logo" src="image/facebook.jpg" alt="" width="225" height="225" /></a>
+                                </center>
+                            </div>
+                            <div class="col-xs-12">
+                                <br>
+                                <br>
+                                <p style="text-align:center">Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="build/three.js"></script>
+        <script src="js/CanvasRenderer.js"></script>
+        <script src="js/Projector.js" charset="utf-8"></script>
+        <script src="js/tween.min.js"></script>
+        <script src="js/stats.min.js"></script>
+        <script src="build/midnight.jquery.min.js"></script>
+        <script src="js/test.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
